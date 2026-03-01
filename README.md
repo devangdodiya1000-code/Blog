@@ -40,14 +40,19 @@ Follow these steps to run the project locally:
 
 1️⃣ Clone the Repository
 https://github.com/devangdodiya1000-code/Blog.git
+
 2️⃣ Navigate to Project Folder
 cd Blog
+
 3️⃣ Install Dependencies
 composer install
+
 4️⃣ Copy Environment File
 cp .env.example .env
+
 5️⃣ Generate Application Key
 php artisan key:generate
+
 6️⃣ Configure Database
 
 Open the .env file and update:
